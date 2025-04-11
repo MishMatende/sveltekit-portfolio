@@ -1,4 +1,11 @@
 <script>
+  import Step from "./Step.svelte";
+
+  let steps = [
+    { name: "APOD-REACT", icon: "fa-solid fa-shuttle-space" },
+    { name: "Scribeness", icon: "fa-solid fa-signature" },
+    { name: "BolderMotiv", icon: "fa-solid fa-dumbbell" },
+  ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -43,6 +50,36 @@
       <h6 class="text-lg sm:text-xl md:text-2xl">
         A few of my creative endevours.
       </h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        Curious to <span class="poppins text-violet-400">see</span> my work?
+      </h3>
+    </div>
+    <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      target="_blank"
+      class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+    >
+      <i class="fa-regular fa-circle-play"></i>
+      <p>Watch the video!</p>
+    </a>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+      <Step step={steps[0]}>
+        <p>
+          APOD-React is a project that I developed as a tool to show my
+          understanding of API intergration and Browser caching.
+        </p>
+      </Step>
+      <Step step={steps[1]}>
+        <p>
+          ScribeNess is a free transcription and translation web application.
+        </p>
+      </Step>
+      <Step step={steps[2]}>
+        <p>
+          BolderMotiv is a web application that aims to help individuals work
+          out and aim fo rtheir dream bodies.
+        </p>
+      </Step>
     </div>
   </section>
 </main>
