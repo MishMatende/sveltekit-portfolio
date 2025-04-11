@@ -28,7 +28,7 @@
     <!-- svelte-ignore a11y_consider_explicit_label -->
     <button
       onclick={goTop}
-      class="ml-auto rounded-full bg-slate-400 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer"
+      class="ml-auto rounded-full aspect-square bg-slate-400 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer"
     >
       <!-- svelte-ignore element_invalid_self_closing_tag -->
       <i class="fa-solid fa-arrow-up grid place-items-center aspect-square" />
