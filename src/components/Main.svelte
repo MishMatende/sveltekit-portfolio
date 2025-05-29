@@ -59,7 +59,7 @@
       <img
         src={"images/Profile picture.jpeg"}
         alt="Profile"
-        class="object-cover z-[2] max-h-[70vh]"
+        class="object-cover z-[2] max-h-[100vh] rounded-full"
       />
     </div>
   </section>
