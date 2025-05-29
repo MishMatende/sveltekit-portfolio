@@ -2,9 +2,21 @@
   import Step from "./Step.svelte";
 
   let steps = [
-    { name: "APOD-REACT", icon: "fa-solid fa-shuttle-space" },
-    { name: "Scribeness", icon: "fa-solid fa-signature" },
-    { name: "BolderMotiv", icon: "fa-solid fa-dumbbell" },
+    {
+      name: "APOD-REACT",
+      icon: "fa-solid fa-shuttle-space",
+      href: "https://apod-reactapp.vercel.app/",
+    },
+    {
+      name: "Scribeness",
+      icon: "fa-solid fa-signature",
+      href: "https://scribeness.vercel.app/",
+    },
+    {
+      name: "BolderMotiv",
+      icon: "fa-solid fa-dumbbell",
+      href: "https://boldermotiv.vercel.app/",
+    },
   ];
 
   let benefits = [
